@@ -1,5 +1,3 @@
-using Java.Security.Interfaces;
-
 namespace MauiAppHotel.Views;
 
 public partial class HospedagemContratada : ContentPage

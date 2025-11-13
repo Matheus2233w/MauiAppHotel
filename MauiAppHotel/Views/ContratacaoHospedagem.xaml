@@ -6,7 +6,7 @@
     
     <VerticalStackLayout VerticalOptions="CenterAndExpand" Padding="10">
         <Label 
-            Text="Cáuclo da diária"
+            Text="Valor da diária"
             VerticalOptions="Center" 
             HorizontalOptions="Center" 
             FontSize="50"
@@ -27,8 +27,8 @@
 
                 </Grid>
 
-                <Label x:Name="Escolha sua suíte" />
-                <Picker x:Name="pck_quarto" Title="Selecione sua acomodação"
+                <Label x:Name="Escolha seu evento" />
+                <Picker x:Name="pck_quarto" Title="Selecione "
                         ItemDisplayBinding="{Binding Descricao}"/>
 
                 <Frame Padding="10" Margin="10" >
